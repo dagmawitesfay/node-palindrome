@@ -3,6 +3,8 @@
 ### Goal
 Create a simple web application that uses the `fs` and `http` modules to validate whether a string is a palindrome on the server side.
 
+## https://node-palindrome-pjuk.onrender.com/
+
 ### Project overview
 This app is a  Node.js server that serves a static HTML page and checks palindrome input through a custom `/api` endpoint. The browser sends the user’s text as a query string, the server normalizes it, and then compares it to its reversed version. If the values match, the app responds with a success message; otherwise, it marks the input as not being a palindrome.
 
